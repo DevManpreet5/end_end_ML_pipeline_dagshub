@@ -1,0 +1,22 @@
+stages:
+  preprocessing:
+    cmd: python src/preprocessing.py
+    deps:
+    - data/raw/data.csv
+    - src/preprocessing.py
+    params:
+    - preprocessing.input
+    - preprocessing.output
+    outs:
+    - data/processed/data.csv
+  train:
+    cmd: train.model -d src/train.py -d data/raw/data.csv -o models/v1.pkl python
+      src/training.py
+    params:
+    - train.input
+  evaluate:
+    cmd: python src/evaluating.py
+    deps:
+    - data/raw/data.csv
+    - models/v1.pkl
+    - src/evaluate.py
