@@ -1,0 +1,9 @@
+preprocessing:
+  input: data/raw/data.csv
+  output: data/processed/data.csv
+
+train:
+  input: data/processed/data.csv
+  model: model/v1.pkl
+  epochs: 100
+  lr: 0.001

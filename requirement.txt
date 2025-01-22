@@ -1,0 +1,6 @@
+dagshub
+pandas 
+numpy 
+scikit-learn
+dvc 
+dvc-s3
