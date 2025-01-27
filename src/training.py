@@ -14,7 +14,7 @@ params=yaml.safe_load(open('params.yaml'))
 
 os.environ['MLFLOW_TRACKING_URI']="https://dagshub.com/DevManpreet5/end_end_ML_pipeline.mlflow"
 os.environ['MLFLOW_TRACKING_USERNAME']="DevManpreet5"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="fb77a4b75653ac3b0aeb3c6dc32566fe7cba4cf9"
+os.environ["MLFLOW_TRACKING_PASSWORD"]=" "
 
 def hyperparameter_tuning(grid,X_train,y_train):
     rf=RandomForestClassifier()
