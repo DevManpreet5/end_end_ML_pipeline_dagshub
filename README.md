@@ -41,24 +41,6 @@ This project demonstrates how to build a robust, end-to-end machine learning pip
 
 ---
 
-## **Goals**
-
-### **1. Reproducibility**
-- Ensures consistent and reliable workflows by tracking data, parameters, and code with DVC.
-
-### **2. Experimentation**
-- Facilitates easy comparison of experiments with different hyperparameters using MLflow.
-
-### **3. Collaboration**
-- Enables seamless team collaboration with version control for data, models, and code.
-
----
-
-## **Use Cases**
-- **Data Science Teams**: Track datasets, models, and experiments in an organized and reproducible manner.
-- **Machine Learning Research**: Iterate quickly on experiments, track performance, and manage data versions efficiently.
-
----
 
 ## **Technology Stack**
 - **Python**: Core language for data processing, model training, and evaluation.
